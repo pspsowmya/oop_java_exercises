@@ -13,4 +13,5 @@ interface Cat {
     int getAverageHeight();
 
     String eat();
+
 }

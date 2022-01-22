@@ -66,27 +66,27 @@ public class CatTest {
 
     //Additional test case for bonus exercise
     @Test
-    public void checkCommentFromDomesticCat(){
+    public void checkCommentFromDomesticCat() {
         Cat domesticCat = new BengalCat();
-        assertEquals("It will do I suppose",domesticCat.eat());
+        assertEquals("It will do I suppose", domesticCat.eat());
     }
 
     @Test
-    public void checkRunforDomesticCat(){
+    public void checkRunforDomesticCat() {
         CatImpl domesticCat = new DomesticCat();
-        assertEquals("All cats can run",domesticCat.run());
+        assertEquals("All cats can run", domesticCat.run());
     }
 
     @Test
-    public void checkRunforLionCat(){
+    public void checkRunforLionCat() {
         CatImpl lionCat = new LionCat();
-        assertEquals("All cats can run",lionCat.run());
+        assertEquals("All cats can run", lionCat.run());
     }
 
     @Test
-    public void checkRunforCheetahCat(){
+    public void checkRunforCheetahCat() {
         CatImpl cheetahCat = new CheetahCat();
-        assertEquals("All cats can run",cheetahCat.run());
+        assertEquals("All cats can run", cheetahCat.run());
     }
 
 
